@@ -1,6 +1,6 @@
 class perconatoolkit {
 
-  include apt::repo::percona
+  include s_apt::percona
 
   package{ 'percona-toolkit':
     ensure => present,
